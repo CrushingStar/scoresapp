@@ -1,5 +1,4 @@
 import '../style.css';
-import GameBox from '../gamebox/gamebox';
 
 /**
    * Generates generic white box, containing a Title and Content component.
