@@ -2,7 +2,6 @@ import '../style.css';
 import './style.css';
 import WhiteBox from '../whitebox/whitebox';
 import searchById from '../../../searchById';
-import { Container } from 'react';
 
 function Title() {
   return (
