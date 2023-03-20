@@ -10,7 +10,7 @@ function GameBox({ id, team1, team2, score1, score2, livetext }) {
       <div className="gamebox">
         <div className="leftdiv">
           <div className="parent">
-            <img className="smallimg" src={`/imgs/${team1}.png`}></img>
+            <img className="smallimg" src={`/imgs/${team1}.png`} alt="team1.png"></img>
             <p className="team">{team1}</p>
             {
               score1 < 10 ?
@@ -19,7 +19,7 @@ function GameBox({ id, team1, team2, score1, score2, livetext }) {
             }
           </div>
           <div className="parent">
-            <img className="smallimg" src={`/imgs/${team2}.png`}></img>
+            <img className="smallimg" src={`/imgs/${team2}.png`} alt="team2.png"></img>
             <p className="team">{team2}</p>
             {
               score2 < 10 ?
