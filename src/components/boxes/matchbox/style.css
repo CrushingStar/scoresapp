@@ -1,0 +1,29 @@
+.matchlive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.liveteam {
+  margin: 10px auto;
+  padding: 10px;
+  width:600px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.liveimg {
+  height:100px;
+  width:100px;
+}
+
+.livescore {
+  font-family: “Gill Sans”, sans-serif;
+  font-size:80px; 
+  font-weight:bold;
+  margin: 0;
+}

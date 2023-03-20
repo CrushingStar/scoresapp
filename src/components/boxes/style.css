@@ -1,0 +1,28 @@
+.square {
+  top: 100px;
+  left: 40px;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.title{
+  padding-top: 20px; 
+  padding-left: 20px;
+}
+
+.livetext {
+  color: lime;
+  margin: 0;
+}
+
+.fttext {
+  color: gray;
+  margin: 0;
+}
+
+.leftdiv {
+  display:flex;
+  flex-direction: column;
+  float: left;
+}

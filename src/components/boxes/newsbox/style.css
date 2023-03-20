@@ -1,0 +1,14 @@
+.news-title {
+  font-size: 21px;
+  translate: 5px;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 640;
+  padding-left: 23px;
+}
+
+.news-description {
+  font-size: 18px;
+  translate: 5px;
+  font-family: "Gill Sans", sans-serif;
+  padding-left: 23px;
+}
