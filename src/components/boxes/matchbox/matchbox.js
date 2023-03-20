@@ -1,8 +1,6 @@
 import '../style.css';
 import './style.css';
-import GameBox from '../gamebox/gamebox';
 import WhiteBox from '../whitebox/whitebox';
-import games from '../../../info';
 import searchById from '../../../searchById';
 
 
@@ -23,11 +21,11 @@ function Content({ id }) {
   const game = searchById(id);
   return (
     <div class="liveteam">
-      <img class="liveimg" src={`/imgs/${game.team1}.png`}></img>
+      <img class="liveimg" src={`/imgs/${game.team1}.png`} alt="team1.png"></img>
       <p class="livescore">{game.score1}</p>
       <p class="livescore">-</p>
       <p class="livescore">{game.score2}</p>
-      <img class="liveimg" src={`/imgs/${game.team2}.png`}></img>
+      <img class="liveimg" src={`/imgs/${game.team2}.png`} alt="team2.png"></img>
     </div>
   );
 }
