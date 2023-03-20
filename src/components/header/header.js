@@ -12,7 +12,7 @@ function Header() {
       </div>
 
       <div style={{ textAlign: "center", verticalAlign: "middle", lineHeight: "normal" }}>
-        <img src="/imgs/SIS.png" className="bigimg"></img>
+        <img src="/imgs/SIS.png" className="bigimg" alt="SIS.png"></img>
       </div>
       <button className="gradient-button"> tigersportscouncil </button>
     </div>
